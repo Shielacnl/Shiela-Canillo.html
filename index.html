@@ -3,124 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
-    <style>
-         body {
-            font-family: 'Open Sans', sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #3498db;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        img {
-            border: 2px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 460px;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-        }
-
-        ul li {
-            list-style-type: none;
-            margin: 10px 0;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        ul li:hover {
-            background-color: #3498db;
-            color: #fff;
-            cursor: pointer;
-        }
-
-        footer {
-            background-color: #2c3e50;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-
-        /* Additional styling for the new section */
-        .gaming-section {
-            background-color: #3498db;
-            color: #fff;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 8px;
-        }
-
-        .achievement-section {
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS file for styling -->
     <title>Shiela Canillo - Personal Website</title>
 </head>
 <body>
 
     <header>
-        <h2>Hi!! Welcome to my Website</h2>
-        <img src="Cute.jpg">
+        <h1>Hi! Welcome to my Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#gaming">Gaming</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section>
-        <h2>About Me:</h2>
-        <ul>
-            <li><strong>Name:</strong> Canillo, Shiela Mae</li>
-            <li><strong>Age:</strong> 20</li>
-            <li><strong>Email:</strong> shielcanillo10@gmail.com</li>
-            <li><strong>Location:</strong> Trees Residences Quezon City</li>
-            <li><strong>Occupation:</strong> Student</li>
-            <li><strong>School:</strong> National University</li>
-            <li><strong>Course:</strong> Bachelor of Science In Information Technology</li>
-        </ul>
-    </section>
+    <main>
+        <section id="about">
+            <h2>About Me:</h2>
+            <ul>
+                <li><strong>Name:</strong> Canillo, Shiela Mae</li>
+                <li><strong>Age:</strong> 20</li>
+                <li><strong>Email:</strong> shielcanillo10@gmail.com</li>
+                <li><strong>Location:</strong> Trees Residences Quezon City</li>
+                <li><strong>Occupation:</strong> Student</li>
+                <li><strong>School:</strong> National University</li>
+                <li><strong>Course:</strong> Bachelor of Science In Information Technology</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Hobbies:</h2>
-        <ul>
-             <li>Sleeping when I feel like I need to</li>
-            <li>Playing games</li>
-            <li>Cooking</li>
-            <li>Reading Manhwa</li>
-            <li>Playing Badminton</li>
-        </ul>
-    </section>
+        <section id="hobbies">
+            <h2>Hobbies:</h2>
+            <ul>
+                <li>Sleeping when I feel like I need to</li>
+                <li>Playing games</li>
+                <li>Cooking</li>
+                <li>Reading Manhwa</li>
+                <li>Playing Badminton</li>
+            </ul>
+        </section>
 
-    <!-- New Section for Gaming and Achievements -->
-    <section class="achievement-section">
-        <h2>Achievements:</h2>
-        <ul>
-            <li>MVP</li>
-            <li>Champion year 2019</li>
-        </ul>
-    </section>
+        <section id="achievements">
+            <h2>Achievements:</h2>
+            <ul>
+                <li>MVP</li>
+                <li>Champion year 2019</li>
+            </ul>
+        </section>
 
-    <section class="gaming-section">
-        <h2>Gaming:</h2>
-        <ul>
-            <li>Call Of Duty Mobile</li>
-            <li>League Of Legends</li>
-            <li>Valorant</li>
-            <li>Mobile Legends</li>
-            <li>Counter Strike</li>
-        </ul>
-    </section>
+        <section id="gaming">
+            <h2>Gaming:</h2>
+            <ul>
+                <li>Call Of Duty Mobile</li>
+                <li>League Of Legends</li>
+                <li>Valorant</li>
+                <li>Mobile Legends</li>
+                <li>Counter Strike</li>
+            </ul>
+        </section>
+    </main>
 
     <footer>
-        <!-- Your existing footer content -->
-        Follow me on <a href="https://twitter.com/SiJongseong">Twitter</a> | <a href="https://www.instagram.com/shlcn_prtty/">Instagram</a> | <a href="https://www.facebook.com/itsmeyyycccc">Facebook</a>
+        <p>Follow me on <a href="https://twitter.com/SiJongseong">Twitter</a> | <a href="https://www.instagram.com/shlcn_prtty/">Instagram</a> | <a href="https://www.facebook.com/itsmeyyycccc">Facebook</a></p>
     </footer>
 
 </body>
